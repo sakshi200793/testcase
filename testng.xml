@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionProjCertSuite">
+  <test thread-count="1" name="ProjCertTest">
+    <classes>
+      <class name="co.edureka.devops.projcert.ProjCertTestSuite"/>
+    </classes>
+  </test> <!-- ProjCertTest -->
+</suite> <!-- RegressionProjCertSuite -->
