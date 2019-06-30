@@ -49,8 +49,11 @@ public class ProjCertTestSuite {
 
 	@BeforeMethod
 	public void setUp() {
-		String driverOS = "mac";
-		String driverBinary = "/Applications/Chromium.app/Contents/MacOS/Chromium";
+		//String driverOS = "mac";
+		//String driverBinary = "/Applications/Chromium.app/Contents/MacOS/Chromium";
+		
+		String driverOS = "linux";
+		String driverBinary = "/usr/bin/chromium-browser";
 
 		File resourcesPath = new File("src/test/resources");
 		StringBuilder driverPath = new StringBuilder(resourcesPath.getAbsolutePath()).append(File.separator)
